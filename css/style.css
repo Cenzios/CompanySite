@@ -1,12 +1,21 @@
-/********** Template CSS **********/
+/**** Template CSS ****/
 :root {
-    --primary: #1355FF;
+    --primary: #03033f;
+    /* --primary: #1355FF; */
     --light: #EDF5FF;
     --dark: #202942;
 }
 
+.bg-primary-2 {
+    background-color: var(--primary);
+}
 
-/*** Spinner ***/
+.text-primary-2 {
+    color: var(--primary);
+}
+
+
+/* Spinner */
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -39,7 +48,7 @@
 }
 
 
-/*** Heading ***/
+/* Heading */
 h1,
 h2,
 .fw-bold {
@@ -59,7 +68,7 @@ h6,
 }
 
 
-/*** Button ***/
+/* Button */
 .btn {
     transition: .5s;
 }
@@ -103,7 +112,7 @@ h6,
 }
 
 
-/*** Navbar ***/
+/* Navbar */
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f067";
@@ -192,7 +201,7 @@ h6,
         left: 0;
         z-index: 999;
     }
-    
+
     .sticky-top.navbar {
         position: fixed;
         background: #FFFFFF;
@@ -227,7 +236,7 @@ h6,
 }
 
 
-/*** Hero Header ***/
+/* Hero Header */
 .hero-header {
     margin-bottom: 6rem;
     padding: 9rem 0;
@@ -241,7 +250,7 @@ h6,
 }
 
 
-/*** Feature ***/
+/* Feature */
 .feature-item,
 .advanced-feature-item {
     height: 100%;
@@ -269,7 +278,7 @@ h6,
 }
 
 
-/*** Process ***/
+/* Process */
 .process {
     padding: 0;
     list-style: none;
@@ -319,7 +328,7 @@ h6,
 }
 
 
-/*** Price ***/
+/* Price */
 .price-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     transition: .5s;
@@ -330,7 +339,7 @@ h6,
 }
 
 
-/*** Testimonial ***/
+/* Testimonial */
 .testimonial-carousel .testimonial-item {
     padding: 0 30px 30px 30px;
 }
@@ -363,7 +372,7 @@ h6,
 }
 
 
-/*** Footer ***/
+/* Footer */
 .footer {
     margin-top: 6rem;
     padding-top: 3rem;
